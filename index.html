@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        世界のナベ○ツカウンター
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="counter">
+        <div>
+            <img src="imgs/001.png" id="counter_image" alt="default" width="100" height="100">
+        </div>
+            <div class="counter-number" id="js_counter">
+                0
+            </div>
+        <button class="button" id="up_button" onclick="incrementCounter()">
+            +
+        </button>
+        <button class="button" id="down_button" onclick="decrementCounter()">
+            -
+        </button>
+        <button class="button" id="reset_button" onclick="resetCounter()">
+            reset
+        </button>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
